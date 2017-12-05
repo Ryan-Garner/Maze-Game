@@ -1,0 +1,66 @@
+#canvas-main
+{
+    position: absolute;
+    left: 25%;
+    width: 500px;
+    height: 500px;
+}
+
+#buttons
+{
+    width: 23%;
+    height: 600px;
+    border: solid black;
+    float: right;
+    background-color: #383b3f;
+
+}
+
+#stats
+{
+    width: 23%;
+    height: 750px;
+    border: solid black;
+    float: left;
+    background-color: #383b3f;
+}
+
+#five
+{
+    margin-top: 15%;
+}
+
+
+
+.label
+{
+    color: antiquewhite;
+    margin-left: 10%;
+}
+
+.new-game
+{
+    margin-left: 40%;
+    border-color: black;
+    border: 3px;
+    border-style: solid;
+}
+
+.highScores
+{
+    color: antiquewhite;
+    margin-left: 10%;
+}
+
+#highScore
+{
+    width: 23%;
+    height: 500px;
+    border: solid black;
+    
+    background-color: #383b3f;
+}
+
+body {
+    background-image: url('background.jpg');
+}

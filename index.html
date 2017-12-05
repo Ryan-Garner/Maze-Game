@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+<head>
+    <meta charset = "UTF-8">
+    <title>Maze Game</title>
+     <link rel = "stylesheet" type = "text/css" href = "maze.css">
+    <script src = "mazegame.js"></script>
+</head>
+<body onload = "initialize()">
+    <div id = "container">
+        <canvas id = "canvas-main" width = "1000" height = "1000" style = "width: 50%; height: 90%"></canvas>
+        <div id = "buttons">
+
+            <h2 class = "label" id = "path">Path: p</h2>
+            <h2 class = "label" id = "bread">Breadcrumbs: b</h2>
+            <h2 class = "label" id = "hint">Hint: h</h2>
+            <h2 class = "label" id = "togglescore">Toggle Score: y</h2>
+            <h2 id = "movement" class = "label">Movement: WSAD, IKJL, Arrow Keys</h2>
+            
+            <button id = "five" class = "new-game" type = "button" onclick = "newFive()">New 5 X 5 game </button>
+            <br>
+            <br>
+            <button id = "ten" class = "new-game" type = "button" onclick = "newTen()">New 10 X 10 game </button>
+            <br>
+            <br>
+            <button id = "fifteen" class = "new-game" type = "button" onclick = "newFifteen()">New 15 X 15 game </button>
+            <br>
+            <br>
+            <button id = "twenty" class = "new-game" type = "button" onclick = "newTwenty()">New 20 X 20 game </button>
+            <br>
+            <br>
+            <h1 class = "label">Created by Ryan Garner</h1>
+        
+        </div>
+        <div id = "stats">
+            <h1 class = "label">Time: <h1 id = "time" class = "label">/s/s/s  </h1> </h1>
+            <br>
+            <h1 class = "label">Score: </h1><h1 id = "score" class = "label"> </h1>
+            <br>
+            <h1 id = "endgame" class = "label"></h1>
+            <br>
+            <br>
+            <h1 class = "label"> High Scores </h1>
+            <h3 class = "label" id = "one"></h1>
+            <h3 class = "label" id = "two">  </h3>
+            <h3 class = "label" id = "three">  </h3>
+            <h3 class = "label" id = "four">  </h3>
+            <h3 class = "label" id = "fivef">  </h3>
+        </div>
+    </div>
+</body>
+</html>
